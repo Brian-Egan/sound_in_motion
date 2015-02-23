@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |gem|
   gem.name        = "sound_in_motion"
-  gem.version     = '0.0.1'
+  gem.version     = '0.0.2'
   gem.summary     = "Easy use of AudioToolbox sounds in RubyMotion projects"
   gem.description = "Quickly play short sounds in RubyMotion projects"
   gem.files         = `git ls-files`.split("\n")

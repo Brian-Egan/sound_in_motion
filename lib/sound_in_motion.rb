@@ -4,6 +4,8 @@ end
 
 Motion::Project::App.setup do |app|
   Dir.glob(File.join(File.dirname(__FILE__), 'sound_in_motion/*.rb')).each do |file|
+
+    app.frameworks += %w[AudioToolbox]
     app.files.unshift(file)
   end
 end

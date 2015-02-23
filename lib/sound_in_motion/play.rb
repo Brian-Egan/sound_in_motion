@@ -5,7 +5,7 @@ module SoundInMotion
         if UIDevice.currentDevice.model.include?("Simulator")
             puts "Sounds will not play in the simulator. Please run on a iDevice."
         else
-          puts "We will play #{file_name}"
+          NSLog "We will play #{file_name}"
         end
     end
 
